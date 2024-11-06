@@ -81,4 +81,5 @@ Experience this fast-paced mini-game with engaging sound and visual feedback. He
 2. ⌨️ **Feedback**: Responds with sounds and visuals for each correct key press.
 3. 🎉 **End**: Shows success or failure based on player performance.
 
-🚀 **Preview Video Coming Soon!**
+🚀 **Preview Video**
+[RedM RP Standalone Key Press Mini-Game Preview](https://www.youtube.com/watch?v=Q_xGHjLvszY)
