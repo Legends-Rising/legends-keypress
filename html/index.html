@@ -1,0 +1,26 @@
+<!-- html/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedM Minigame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="minigame-ui" class="minigame-container hidden">
+        <div class="circular-timer">
+            <svg class="progress-ring" width="120" height="120">
+                <circle class="progress-ring__circle" cx="60" cy="60" r="55"></circle>
+            </svg>
+            <div class="timer-content">
+                <span id="key-display"></span>
+                <!-- Removed the timer display -->
+            </div>
+        </div>
+        <p id="status-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

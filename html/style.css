@@ -1,0 +1,156 @@
+/* html/style.css */
+
+body {
+  /* background-color: #141414; */
+  font-family: 'Marston', sans-serif;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.minigame-container {
+  text-align: center;
+  padding: 20px;
+  background-image: url('assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1vw;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  max-width: 90vw;
+  max-height: 90vh;
+  box-sizing: border-box; 
+}
+
+
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* New class to apply the animation */
+.animate-fade-in-scale {
+  animation: fadeInScale 0.5s ease-in-out;
+}
+
+h1 {
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+
+.circular-timer {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.progress-ring__circle {
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 5;
+  stroke-dasharray: 345;
+  stroke-dashoffset: 345;
+  transition: stroke-dashoffset 1s linear;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.key-pressed {
+  animation: keyPressEffect 0.2s ease-in-out;
+}
+
+@keyframes keyPressEffect {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.2);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.success {
+  /* Existing success styles */
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.fail {
+  /* Existing fail styles */
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transform: scale(0.9);
+}
+
+
+
+/* Key press fail effect */
+.key-press-fail {
+  animation: keyFail 0.3s ease-out;
+}
+
+@keyframes keyFail {
+  0% {
+      transform: scale(1);
+      color: #f4f4f4;
+      text-shadow: none;
+  }
+  50% {
+      transform: scale(1.3);
+      color: #d9534f; /* Fail color */
+      text-shadow: 0 0 10px #d9534f;
+  }
+  100% {
+      transform: scale(1);
+      color: #f4f4f4;
+      text-shadow: none;
+  }
+}
+
+.timer-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+.hidden {
+  display: none;
+}
+
+#status-message {
+  font-size: 2vw;
+  color: #f4f4f4;
+  margin-top: 15px;
+  transition: color 0.3s ease-in-out;
+  display: none;
+}
+
+#status-message.success {
+  color: #28a745;
+}
+
+#status-message.fail {
+  color: #d9534f;
+}
+
+.timer-content .pressed {
+  /* Additional effect when key is pressed */
+  color: #28a745;
+}
