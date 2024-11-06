@@ -82,4 +82,5 @@ Experience this fast-paced mini-game with engaging sound and visual feedback. He
 3. 🎉 **End**: Shows success or failure based on player performance.
 
 🚀 **Preview Video**
+
 [legends-keypress Standalone Mini-Game Preview](https://streamable.com/y6uq59)
