@@ -1,7 +1,3 @@
-Here's the polished `README.md` for your GitHub repository:
-
----
-
 # 🎮 RedM RP Standalone Key Press Mini-Game
 
 This standalone mini-game for RedM RP servers challenges players with quick key-press actions against the clock! Players must press random keys within a limited time, with interactive audio feedback for key presses, success, and failure. The game includes dynamic UI positioning and customizable settings, making it adaptable and engaging.
@@ -86,7 +82,3 @@ Experience this fast-paced mini-game with engaging sound and visual feedback. He
 3. 🎉 **End**: Shows success or failure based on player performance.
 
 🚀 **Preview Video Coming Soon!**
-
----
-
-This README will give users a clear understanding of your mini-game's features, installation, usage, and functionality, complete with engaging icons and a promise of more to come!
