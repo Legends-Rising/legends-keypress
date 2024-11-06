@@ -1,4 +1,4 @@
-# 🎮 RedM RP Standalone Key Press Mini-Game
+# 🎮 legends-keypress Standalone Key Press Mini-Game
 
 This standalone mini-game for RedM RP servers challenges players with quick key-press actions against the clock! Players must press random keys within a limited time, with interactive audio feedback for key presses, success, and failure. The game includes dynamic UI positioning and customizable settings, making it adaptable and engaging.
 
@@ -82,4 +82,4 @@ Experience this fast-paced mini-game with engaging sound and visual feedback. He
 3. 🎉 **End**: Shows success or failure based on player performance.
 
 🚀 **Preview Video**
-[RedM RP Standalone Key Press Mini-Game Preview](https://www.youtube.com/watch?v=Q_xGHjLvszY)
+[legends-keypress Standalone Mini-Game Preview]([https://www.youtube.com/watch?v=Q_xGHjLvszY](https://streamable.com/y6uq59))
